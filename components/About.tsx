@@ -14,7 +14,7 @@ const About = () => {
   });
 
   const [ref, inView] = useInView({
-    threshold: !isMobile ? 0.5 : null,
+    threshold: !isMobile ? 0.5 : [],
   });
 
   return (
